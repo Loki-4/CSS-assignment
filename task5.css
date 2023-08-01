@@ -1,0 +1,16 @@
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parent img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 1px solid black;
+    transition: transform 0.3s;
+    top:200px;
+}
+.parent img:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    color: plum;
+}
+.parent img{
+ height: 200px;
+ width: 200px;
+ position: absolute;
+ right:15px;
+}
+.parent .p1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    bottom: 15px;
+    margin: 15px;
+    left: 20px;
+    position: absolute;
+}
+.parent .p2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 180px;
+    position: absolute;
+}

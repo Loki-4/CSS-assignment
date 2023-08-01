@@ -1,0 +1,62 @@
+.heading{
+    height: 80px;
+    background-color:pink;
+    display: flex;
+}
+.heading h1{
+    padding-right: 26rem;
+}
+.heading .navbar a{
+    font-size: 2rem;
+    padding-right:4rem;
+    color:#666;
+    text-decoration: none;
+}
+.heading .navbar a:hover{
+    color: blue;
+}
+.heading .login{
+    background-color: #fff;
+    margin: auto;
+}
+.heading .login:hover{
+    background-color: aqua;
+    font-size: medium;
+}
+.main{
+    height: 400px;
+    display:flex;
+    padding-top: 4rem;
+    justify-content: space-evenly;
+
+}
+.main .box1{
+    width:300px;
+    height: 300px;
+    background-color: orange;
+}
+.main .box2{
+    width:300px;
+    height: 300px;
+    background-color:blue;
+}
+.main .box3{
+    width:300px;
+    height: 300px;
+    background-color:green;
+}
+.footer{
+    height:60px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+} 
+@media screen{
+.heading .navbar a{
+    font-size: 2rem;
+    padding-right:4rem;
+    color:#666;
+    text-decoration: none;
+}
+}

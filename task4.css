@@ -1,0 +1,30 @@
+
+.heading h1{
+    padding-right: 26rem;
+}
+.heading .navbar a{
+    font-size: 2rem;
+    padding-right:4rem;
+    color:#666;
+    text-decoration: none;
+}
+.heading .navbar a:hover{
+    color: blue;
+}
+.heading .login{
+    background-color: #fff;
+    margin: auto;
+}
+.heading .login:hover{
+    background-color: aqua;
+    font-size: medium;
+}
+.heading{
+    height: 10%;
+    display: flex;
+    font-weight: bold;
+    background-color:pink;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
